@@ -10,7 +10,6 @@ using System.Runtime.InteropServices;
 // Properties\AssemblyInfo.cs file and remove any lines duplicating the ones below.
 // (See also AssemblyInfoCommon.cs in this same directory.)
 
-// These are used only on the local dev builds.  
-[assembly: AssemblyVersion("1.2.3.4")] 
-[assembly: AssemblyFileVersion("1.2.3.4")] 
-[assembly: AssemblyInformationalVersion("1.2.3.4 - DEV BUILD")]
+[assembly: AssemblyVersion("2015.11.25.1235")] 
+[assembly: AssemblyFileVersion("2015.11.25.1235")] 
+[assembly: AssemblyInformationalVersion("2015.11.25.1235[SPOTLABS]")]
