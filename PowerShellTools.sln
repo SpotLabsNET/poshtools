@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25029.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerShellTools", "PowerShellTools\PowerShellTools.csproj", "{456D66A8-E05E-496D-BDCE-AF24BBC12E0D}"
 EndProject
@@ -36,6 +36,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{D28D5434
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F0ABCB13-D647-4D44-ACCD-C31A69EC979D}"
 	ProjectSection(SolutionItems) = preProject
+		appveyor.ps1 = appveyor.ps1
 		appveyor.yml = appveyor.yml
 		README.md = README.md
 	EndProjectSection

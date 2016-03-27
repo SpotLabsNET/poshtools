@@ -932,6 +932,6 @@
   </PropertyGroup>
   <Import Project="..\Build\ProjectAfter.settings" />
   <PropertyGroup>
-    <PostBuildEvent>PowerShell -ExecutionPolicy Unrestricted -File "$(ProjectDir)PostBuild.ps1" $(OutDir)PowerShellTools.$(VSTarget).vsix</PostBuildEvent>
+    <PostBuildEvent>PowerShell -ExecutionPolicy Unrestricted -File "$(ProjectDir)PostBuild.ps1" "$(OutDir)PowerShellTools.$(VSTarget).vsix"</PostBuildEvent>
   </PropertyGroup>
 </Project>
