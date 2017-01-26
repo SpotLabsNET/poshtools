@@ -21,7 +21,7 @@ namespace PowerShellTools.Service
         {
             if (!PowerShellToolsPackage.PowerShellHostInitialized)
             {
-                PowerShellToolsPackage.DebuggerReadyEvent.WaitOne();
+                PowerShellToolsPackage.DebuggerReadyEvent.WaitOne(TimeSpan.FromSeconds(10));
             }
 
             _debugger = PowerShellToolsPackage.Debugger;
