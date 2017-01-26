@@ -39,7 +39,7 @@
         <UpgradeBackupLocation>
         </UpgradeBackupLocation>
         <OldToolsVersion>4.0</OldToolsVersion>
-        <!-- <IsProductComponent>true</IsProductComponent> -->
+        <IsProductComponent>true</IsProductComponent>
         <!--
           IsProductComponent is only needed when inserting the VSIX into VS 2017 installer.
           It will make the build process to generate a json file which can be used to create a component manifest file.
