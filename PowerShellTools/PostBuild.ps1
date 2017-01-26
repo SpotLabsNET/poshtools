@@ -5,7 +5,7 @@ if ($Env:APPVEYOR -ne 'True' -or $Env:APPVEYOR_PULL_REQUEST_NUMBER -ne $null)
     return
 }
 
-$ToolPath = (Join-Path $PSScriptRoot '..\packages\Microsoft.VSSDK.Vsixsigntool.15.0.25824-RC\tools\vssdk\vsixsigntool.exe')
+$ToolPath = (Join-Path $PSScriptRoot '..\packages\Microsoft.VSSDK.Vsixsigntool.15.0.26105-RC3\tools\vssdk\vsixsigntool.exe')
 
 $Bin = Split-Path $VSIXPath -Parent
 $PDBDir = Join-Path $Bin 'PDB'
