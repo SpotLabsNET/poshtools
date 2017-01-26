@@ -2,9 +2,11 @@ version: 3.0.{build}
 # The above also controls the VSIX Version. For any dlls which are intended to be referenced from
 # 3rd parties, eg, any contract DLLs, those have their own AssemblyInfo/AssemblyVersioning.
 
-os:
+#os:
 #- Windows Server 2012 R2 # This has Dev 12.
-- Visual Studio 2017 RC # This has Dev 14.
+#- Visual Studio 2017 RC # This has Dev 14.
+image:
+- Visual Studio 2017 RC
 
 configuration: Release
 platform: Any CPU
