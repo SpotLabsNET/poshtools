@@ -2,6 +2,8 @@
 [Bb]in/
 [Oo]bj/
 
+.vs/
+
 # mstest test results
 TestResults
 
@@ -63,7 +65,7 @@ _ReSharper*
 *.ncrunch*
 .*crunch*.local.xml
 
-# Installshield output folder 
+# Installshield output folder
 [Ee]xpress
 
 # DocProject is a documentation generator add-in

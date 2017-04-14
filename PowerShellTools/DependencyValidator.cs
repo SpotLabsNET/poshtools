@@ -24,10 +24,11 @@ namespace PowerShellTools
             {
                 try
                 {
-                    if (!VsShellUtilities.IsInAutomationFunction(ServiceProvider.GlobalProvider) &&
-                        MessageBox.Show(Resources.MissingPowerShellVersion,
-                                        Resources.MissingDependency,
-                                        MessageBoxButton.YesNo,
+                    if (!VsShellUtilities.IsInAutomationFunction(ServiceProvider.GlobalProvider)
+                        && MessageBox.Show(
+                            Resources.MissingPowerShellVersion,
+                            Resources.MissingDependency,
+                            MessageBoxButton.YesNo,
                                         MessageBoxImage.Warning) == MessageBoxResult.Yes)
                     {
                         System.Diagnostics.Process.Start(PowerShellTools.Common.Constants.PowerShellInstallFWLink);
